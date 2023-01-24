@@ -30,6 +30,15 @@ def google_drive():
     # with mp.Pool(processes = mp.cpu_count()) as p:
     #     print(list(tqdm(p.imap(exp_country, exception), total=len(exception), desc = '我是進度條')))
 
+def exrate():
+    start()
+    exp_country(exception)
+    normal_country(country)
+    convert()
+
+def clean():
+    driver_clean()
+
 if __name__ == '__main__':
     start()
     exp_country(exception)
