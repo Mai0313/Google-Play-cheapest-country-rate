@@ -140,18 +140,18 @@ def on_exist():
 if __name__ == '__main__':
     # root = tk.Tk()
     root = ttk.Window(
-            title="窗口名字",        #设置窗口的标题
-            themename="darkly",     #设置主题
-            size=(1066,600),        #窗口的大小
-            position=(100,100),     #窗口所在的位置
-            minsize=(0,0),          #窗口的最小宽高
-            maxsize=(1920,1080),    #窗口的最大宽高
-            resizable=None,         #设置窗口是否可以更改大小
-            alpha=1.0,              #设置窗口的透明度(0.0完全透明）
+            title="Rate Exchange",
+            themename="darkly",
+            size=(1066,600),
+            position=(100,100),
+            minsize=(0,0),
+            maxsize=(1920,1080),
+            resizable=None,
+            alpha=1.0,
             )
-    # root.place_window_center()    #让显现出的窗口居中
-    # root.resizable(False,False)   #让窗口不可更改大小
-    # root.wm_attributes('-topmost', 1)#让窗口位置其它窗口之上
+    # root.place_window_center()    #居中
+    # root.resizable(False,False)   #不可更改大小
+    # root.wm_attributes('-topmost', 1)#其它窗口之上
 
     root.iconbitmap("src\ico.ico")
     root.title("Rate Exchange")
